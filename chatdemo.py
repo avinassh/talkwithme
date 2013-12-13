@@ -25,7 +25,7 @@ import uuid
 from tornado import gen
 from tornado.options import define, options, parse_command_line
 
-define("port", default=8888, help="run on the given port", type=int)
+define("port", default=5000, help="run on the given port", type=int)
 
 
 class MessageBuffer(object):
